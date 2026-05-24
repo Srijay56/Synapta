@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Local-only state — never commit
+data/
+.truememory/
+*.db
+.wisera_key
+.wisera_db.json
+.wisera_twins.json
+
+# Editor
+.idea/
+.vscode/

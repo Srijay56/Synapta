@@ -1,0 +1,22 @@
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.30,<1.0
+pydantic>=2.9,<3.0
+httpx>=0.27
+websockets>=13.0
+python-multipart>=0.0.12
+
+# Screen capture + computer vision
+mss>=9.0.1
+opencv-python>=4.10.0
+numpy>=1.26,<3.0
+Pillow>=10.4.0
+
+# OCR
+easyocr>=1.7.2
+
+# Input + window introspection
+pynput>=1.7.7
+pygetwindow>=0.0.9 ; platform_system == "Windows"
+
+# Local memory layer
+truememory>=0.1.0
